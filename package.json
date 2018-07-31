@@ -1,0 +1,19 @@
+{
+  "name": "eslint-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint:debug": "node --inspect-brk node_modules/.bin/eslint  ./src/**",
+    "eslint": "node_modules/.bin/eslint  ./src/**"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "dependencies": {
+    "eslint-plugin-dependencies": "^2.4.0"
+  }
+}
