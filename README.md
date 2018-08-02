@@ -47,5 +47,5 @@ module.exports = {
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [no-relative](./docs/rules/no-relative.md) | 限制使用相对路径 |
-|  | ...etc | ...etc |
+| 🔧 | ...etc | ...etc |
 
