@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./test/no-relative.test.js",
     "eslint:debug": "node --inspect-brk node_modules/.bin/eslint  ./src/**",
-    "eslint": "node_modules/.bin/eslint  ./src/**"
+    "eslint": "node_modules/.bin/eslint  ./example/**"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "eslint": "^5.2.0"
   },
   "dependencies": {
-    "eslint-plugin-dependencies": "^2.4.0"
+    "eslint-plugin-dependencies": "^2.4.0",
+    "mocha": "^5.2.0"
   }
 }

@@ -16,11 +16,7 @@ module.exports = {
         'mtmz/test': 'error',
         "indent": [
             "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
+            2
         ],
         "quotes": [
             "error",
@@ -29,6 +25,6 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
     }
 };
