@@ -13,7 +13,9 @@ module.exports = {
         "mtmz"
       ],
     "rules": {
-        'mtmz/test': 'error',
+        'mtmz/no-relative': [
+            'error',
+        ],
         "indent": [
             "error",
             2

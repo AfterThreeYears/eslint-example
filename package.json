@@ -1,12 +1,12 @@
 {
-  "name": "eslint-example",
-  "version": "1.0.0",
+  "name": "eslint-plugin-mtmz",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "mocha ./test/no-relative.test.js",
-    "eslint:debug": "node --inspect-brk node_modules/.bin/eslint  ./src/**",
-    "eslint": "node_modules/.bin/eslint  ./example/**"
+    "test": "mocha",
+    "eslint:debug": "node --inspect-brk node_modules/.bin/eslint  ./example/**",
+    "eslint": "eslint  ./example/**"
   },
   "author": "",
   "license": "ISC",

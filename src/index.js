@@ -1,5 +1,5 @@
 module.exports = {
   rules: {
-    'test': require('./test'),
-  }
+    'no-relative': require('./rules/no-relative'),
+  },
 };
