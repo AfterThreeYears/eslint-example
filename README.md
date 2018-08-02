@@ -31,7 +31,7 @@ module.exports = {
   ],
   rules: {
     'mtmz/no-relative': 'error',
-    // ... 期望各位大佬更多规则
+    // ... 期望各位大佬提供更多规则
   },
 };
 ```
